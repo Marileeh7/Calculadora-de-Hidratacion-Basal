@@ -1,4 +1,4 @@
-# Calculadora-Basal-
+# Calculadora de Hidratación Basal
 
 # Descripción
 Este proyecto ofrece una herramienta vital para el médico personal en los hospitales nacionales de Paraguay, permitiendo el cálculo rápido y preciso de la hidratación basal necesaria para los pacientes. Desarrollada específicamente para la unidad de pediatría del hospital nacional de Santani, la calculadora facilita la determinación de la cantidad mínima de líquidos que un paciente requiere en 24 horas, calculando en su peso. Utiliza los métodos Holliday-Segar para pacientes de hasta 30kg y el cálculo por superficie corporal para pacientes de más de 30kg, apoyando así en la reducción de tiempos y errores en el manual de cálculo.
