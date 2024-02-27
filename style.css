@@ -94,7 +94,7 @@ button {
 button:active {
   transform: scale(0.95);
 }
-@media (max-width: 770px) {
+@media (max-width: 767px) {
   #contenedor {
     width: 90%;
     height: 750px;
