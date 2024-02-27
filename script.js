@@ -4,7 +4,7 @@ function calculoMatematico() {
   const pesoCapturado = document.getElementById('peso').value;
   let volumen, mantenimiento, mantenimientoYMedio;
   // si el peso es 0 se muestra el error
-  if (pesoCapturado == 0) {
+  if (pesoCapturado <= 0) {
    mensajes(true);
   } else if (pesoCapturado <= 30) {
     volumen = calcularVolumenHolliday(pesoCapturado);
