@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+ <link href= "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Wordle PPY</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <h1>WORDLE PPY</h1>
+    <div class="contenedor">
+        <div class="columna1">
+          <p>Ingrese una palabra de 5 letras</p>
+          <input type="text" id="guess-input" maxlength="5" />
+          <p id="error">El texto debe tener 5 letras</p>
+          <button id="guess-button">Intentar</button>
+          <p id="guesses"></p>
+        </div>
+        <div class="columna2"><div id="grid"></div></div>
+    </div>
+  </body>
+</html>
